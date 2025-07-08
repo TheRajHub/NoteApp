@@ -158,6 +158,7 @@ const SignUpPage = ({ setToggle }: { setToggle: (a: boolean) => void }) => {
                   <TextField
                     fullWidth
                     label="Date of Birth"
+                    placeholder="MM-DD-YY"
                     disabled={loading}
                     value={formData.dateOfBirth}
                     onChange={(e) =>
