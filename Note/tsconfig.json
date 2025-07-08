@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020", // Modern JS support
+    "module": "CommonJS", // Node.js module format
+    "lib": ["ES2020"], // Available runtime APIs
+    "esModuleInterop": true, // Interop with CommonJS modules
+    "moduleResolution": "node", // Module resolution algorithm
+    "resolveJsonModule": true, // Allow importing JSON
+    "forceConsistentCasingInFileNames": true,
+
+    /* Project Structure */
+    "rootDir": "./", // Source files directory
+    "outDir": "dist", // Compiled output directory
+
+    /* Type Safety */
+    "strict": true, // Enable all strict checks
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    /* Emit Options */
+    "sourceMap": true, // Generate .map files
+    "removeComments": true, // Strip comments in build
+
+    /* Compatibility */
+    "skipLibCheck": true // Skip checking .d.ts files
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
