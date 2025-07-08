@@ -7,7 +7,12 @@ import userRoute from "../routes/user";
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: ["http://localhost:5173", "https://note-app-alpha-six.vercel.app/"],
+    credentials: true, // if using cookies or Authorization headers
+  })
+);
 app.use("/otp", signRouter);
 app.use("/notes", notes);
 app.use("/getUser", userRoute);
