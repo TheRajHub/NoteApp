@@ -1,17 +1,17 @@
-# 📌 Live Link: [https://note-fe.vercel.app](https://note-fe.vercel.app)
+# 📌 Live Link: [https://note-app-alpha-six.vercel.app/](https://note-app-alpha-six.vercel.app/)
 
 ## 📝 Project Structure
 
 - **Note/** → Backend (Node.js + TypeScript + MongoDB)
-- **Note-fe/** → Frontend (React + Vite)
+- **Note-fe/** → Frontend (React + Vite + MUI + TypeScript)
 
 ---
 
 ## 📦 Cloning the Project
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/TheRajHub/NoteApp.git
+cd NoteApp
 ```
 
 ---
